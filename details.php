@@ -25,6 +25,9 @@
 	.mybutton{
 		width: 130px; float: left;
 	}
+	.ul li a{
+		text-decoration: none;
+	}
 </style>
  <div class="main">
     <div class="content">

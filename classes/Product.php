@@ -14,7 +14,7 @@
 		}
 		public function productInsert($data, $file){
 			$productName =$this->fm->validation($data['productName']);
-			$productName= mysqli_real_escape_string($this->db->link, $data['productName']); 
+			$productName= mysqli_real_escape_string($this->db->link, $data['productName']);
 	        $catId=$this->fm->validation($data['catId']);
 	        $catId= mysqli_real_escape_string($this->db->link, $data['catId']); 
 	        $brandID=$this->fm->validation($data['brandID']);
@@ -32,7 +32,7 @@
 			$file_tmp= $file['image']['tmp_name'];
 
 			$div=explode(".", $file_name);
-			$file_ext=strtolower(end($div)); //jpg
+			$file_ext=strtolower(end($div)); //jpg.png
 			$unique_name=substr(md5(time()), 0, 10).'.'.$file_ext;
 			$upload_image="upload/".$unique_name; //uploads/unique_name
 			

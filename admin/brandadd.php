@@ -22,9 +22,16 @@
                     <table class="form">					
                         <tr>
                             <td>
+                                <label>Brand Name</label>
                                 <input type="text" name="brandName"placeholder="Enter Brand Name..." class="medium" />
                             </td>
                         </tr>
+                        <!-- <tr>
+                            <td>
+                                <label>Brand Logo</label>
+                                <input type="file" name="logo" class="medium" />
+                            </td>
+                        </tr> -->
 						<tr> 
                             <td>
                                 <input type="submit" name="submit" Value="Save" />

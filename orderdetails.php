@@ -35,7 +35,7 @@
                 <style>
                         table.tblone tr th,table.tblone tr td {border-right: 1px solid #e4d3e66b; text-align: justify;}
                 </style>
-                <table class="tblone">
+                <table class="tblone Large shadow">
                     <tr>
                         <th>SL</th>
                         <th>Product Name</th>
@@ -84,9 +84,9 @@
                         </style>
                         <?php
                             if($result['status']=='0' || $result['status']=='1'){ ?>
-                                <td><a onclick="return confirm('Are You Sure To Cancel!');" href="?cancelID=<?php echo $result['orderID']?>"><span class="buysubmit">Cancel</span></a></td>
+                                <td><a class="btn btn-warning btn-sm" onclick="return confirm('Are You Sure To Cancel!');" href="?cancelID=<?php echo $result['orderID']?>"> Cancel</a></td>
                            <?php }elseif($result['status']=='2'||  $result['status']=='4'){ ?>
-                                <td><a onclick="return confirm('Are You Sure To Cancel!');" href="?deleteID=<?php echo $result['orderID']?>"><span class="buysubmit">Delete</span></a></td>
+                                <td><a class="btn btn-danger btn-sm" onclick="return confirm('Are You Sure To Cancel!');" href="?deleteID=<?php echo $result['orderID']?>"> Delete</a></td>
                             <?php }else{?>
                                 <td style='font-weight: bold;'>N/A</td>
                             <?php }?>

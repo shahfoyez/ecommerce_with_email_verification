@@ -80,7 +80,7 @@
                         <label>Description</label>
                     </td>
                     <td>
-                        <textarea class="tinymce" name='body'></textarea>
+                        <textarea type="textarea" name='body'></textarea>
                     </td>
                 </tr>
 				<tr>

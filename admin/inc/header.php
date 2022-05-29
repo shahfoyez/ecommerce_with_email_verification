@@ -36,6 +36,11 @@
     <script src="js/jquery-ui/jquery.ui.mouse.min.js" type="text/javascript"></script>
     <script src="js/jquery-ui/jquery.ui.sortable.min.js" type="text/javascript"></script>
     <script src="js/table/jquery.dataTables.min.js" type="text/javascript"></script>
+
+    <!--font awesome-->
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/yourcode.js" crossorigin="anonymous"></script>
+
     <!-- END: load jquery -->
     <script type="text/javascript" src="js/table/table.js"></script>
     <script src="js/setup.js" type="text/javascript"></script>
@@ -53,11 +58,11 @@
             <div id="branding">
                 <div class="floatleft logo">
                     <!--<img src="" alt="Logo" />-->
-                    <p style='color: #e2fd07; font-size: 20px; font-weight: bold;'>BK</p>
+                    <!-- <p style='color: #e2fd07; font-size: 20px; font-weight: bold;'>HB</p> -->
 				</div>
 				<div class="floatleft middle">
-					<h1>F O Y E Z</h1>
-					<p>www.foyez.com</p>
+					<h1>HB SHOP</h1>
+					<p></p>
 				</div>
                 <div class="floatright">
                     <div class="floatleft">
@@ -82,11 +87,11 @@
         </div>
         <div class="grid_12">
             <ul class="nav main">
-                <li class="ic-dashboard"><a href="dashboard.php"><span>Dashboard</span></a> </li>
+                <li class=""><a href="dashboard.php"><span><i class="fas fa-tachometer-alt"></i> Dashboard</span></a> </li>
                 <!--<li class="ic-form-style"><a href=""><span>User Profile</span></a></li>-->
 				<li class="ic-form-style"><a href="changepassword.php"><span>Change Password</span></a></li>
-				<li class="ic-grid-tables"><a href="inbox.php"><span>Inbox</span></a></li>
-                <li class="ic-charts"><a href=""><span>Visit Website</span></a></li>
+				<li class="ic-grid-tables"><a href="inbox.php"><span>Orders</span></a></li>
+                <li class=""><a href="../"><span><i class="fas fa-tachometer-alt"></i> Visit Website</span></a></li>
             </ul>
         </div>
         <div class="clear">

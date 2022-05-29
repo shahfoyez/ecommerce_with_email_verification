@@ -26,7 +26,7 @@ body{
 	background:url(../images/body_bg3.jpg);
 }
 .wrap{
-	width:78%;
+	width:100%;
 	margin:0 auto;
 	padding:0 1%;
 	background:#FFF;
@@ -35,18 +35,20 @@ body{
 	background:#FFF;
 }
 .header_top{
-	padding:20px 0;
+	padding-bottom:15px;	 
+
 }
 .logo{
 	float:left;
 	width:33%;
+	height: 30px;
 
 }
 /**** Header Top Right ****/
 .header_top_right{
 	float:left;
 	width:67%;
-	margin-top:35px;
+	margin-top: 20px;
 }
 .search_box{
 	float:left;
@@ -72,7 +74,7 @@ body{
 	color:#FFF;
 	font-size:12px;
 	padding:10px 15px;
-	height: 36px;
+	height: 39px;
 	margin:0;
 	background: -webkit-gradient(linear,left top,left bottom,from(#70389C),to(#602D8D));
 	background: -moz-linear-gradient(top,#70389C,#602D8D);
@@ -118,15 +120,11 @@ body{
 	box-sizing: border-box;
 }
 .success{
-		font-size: 18px;
 		color: green;
-		font-weight: bold;
-	}
-	.error{
-		font-size: 18px;
-		color: red;
-		font-weight: bold;
-	}
+}
+.error{
+	color: rgb(196, 16, 16);	 
+}
 .shopping_cart .cart .opencart {
 	width: 7px;
 	height: 5px;
@@ -171,7 +169,7 @@ input[type="number"] {
 	background: #70389C;
 }
 .login {
-    background: rgba(0, 0, 0, 0) url(../images/gradient_light-1.png) repeat-x scroll 0 0;
+    /* background: rgba(0, 0, 0, 0) url(../images/gradient_light-1.png) repeat-x scroll 0 0;
     border: 1px solid #cecece;
     box-sizing: border-box;
     color: #444;
@@ -183,10 +181,13 @@ input[type="number"] {
     text-align: center;
     width: 110px;
     font-weight: bold;
-    padding: 3px;
+    padding: 3px; */
+	/* margin-left: 40px;   */
 }
 .login a {
-	color:#333;
+	margin-left: 40px;
+	width: 120px;
+	/* color:#333; */
 }
 /*** Login ***/
 .register_account h3,.login_panel h3{
@@ -197,21 +198,21 @@ input[type="number"] {
 
 }
 .register_account {
-  background: #fff none repeat scroll 0 0;
-  border: 1px solid #c0bebe;
-  border-radius: 3px;
-  float: left;
-  height: 285px;
-  padding: 20px;
-  width: 700px;
+	background:#f9f9f9;
+	border:1px solid #ced4da;
+	border-radius: 3px;
+	float: left;
+	height: 465px;
+    padding: 20px;
+    width: 770px;
 }
 .register_account form input[type="text"],.register_account form select{
-	font-size:12px;
-	color:#444;
-	padding:8px;
-	outline:none;
-	margin:5px 0;
-	width:325px;
+	font-size: 15px;
+    color: #444;
+    padding: 8px;
+    outline: none;
+    margin: 20px 0;
+    width: 350px;
 }
 .register_account form select{
 	width:360px;
@@ -236,23 +237,26 @@ input[type="number"] {
 	margin-top:3px;
 }
 .login_panel{
-	
 	float:left;
-	width: 245px;
-	height: 285px;
-	margin-right: 10px;
+	width: 320px;
+	height: 465px;
+	margin-right: 30px;
+	margin-left: 100px;
 	padding:20px;
-	background:#FFF;
-	border:1px solid #C0BEBE;
+	background:#f9f9f9;
+	border:1px solid #ced4da;
     -moz-border-radius: 3px; -webkit-border-radius: 3px; border-radius: 3px;
 }
 .login_panel input[type="text"],.login_panel input[type="password"]{
-	font-size:12px;
+	font-size: 15px;
 	color:#B3B1B1;
 	padding:8px;
 	outline:none;
-	margin:6px 0;
-	width:92%;
+	margin:20px 0;
+	width: 100%;
+
+ 
+    /* width: 360px; */
 }
 .login_panel form{
 	margin:15px 0;
@@ -432,7 +436,7 @@ p.note{
 /**** Header Botttom Left ****/
 .header_bottom_left{
 	float:left;
-	width:50%;
+	width:45%;
 	padding-top:6px;
 }
 .header_bottom_img{
@@ -472,7 +476,7 @@ p.note{
 .listview_1_of_2{
 	display: block;
 	float:left;
-	margin: 1.4% 0 0% 1.6%;
+	margin: 1.7% 0 0% 1.6%;
 	box-shadow: 0px 0px 3px rgb(150, 150, 150);
 }
 .listimg{
@@ -528,6 +532,7 @@ p.note{
 		-moz-border-radius:5px;
 		-webkit-border-radius:5px;
 		border-radius:5px;
+		text-decoration: none
 }
 .list_2_of_1 .button a:hover{
 	    border: 1px solid #4D00A0;
@@ -535,30 +540,33 @@ p.note{
         text-decoration:none; 
 }
 .header_bottom_right_images{
-	float:left;
-	width:49%;
-	margin-left:1%;
+	float:right;
+	width: 55%;
+    margin-left: 0px;
 	padding-top: 15px;
 }
 .content{
 	padding:20px 0;
 	background:#FFF;
+	min-height: 510px;
 }
 .content h2{ 
 	font-size:23px;
-	color:#6C6C6C;
+	color:#602d8d;
 	font-family: 'Monda', sans-serif;
 }
 .content_top{
 	padding:15px 20px;
 	border:1px solid #EBE8E8;
 	border-radius:3px;
+	background-color: #f7f7f7;
 }
 .content_bottom{
 	padding:15px 20px;
 	border:1px solid #EBE8E8;
 	border-radius:3px;
 	margin-top:2.6%;
+	background-color: #f7f7f7;
 }
 .heading{
 	float:left;
@@ -721,21 +729,25 @@ p.note{
 }
 .footer{
 	position:relative;
-	background: #414045; 
-	background: -moz-linear-gradient(top,  #414045 55%, #2f2e33 100%); 
-	background: -webkit-gradient(linear, left top, left bottom, color-stop(55%,#414045), color-stop(100%,#2f2e33));
-	background: -webkit-linear-gradient(top,  #414045 55%,#2f2e33 100%); 
-	background: -o-linear-gradient(top,  #414045 55%,#2f2e33 100%); 
-	background: -ms-linear-gradient(top,  #414045 55%,#2f2e33 100%); 
-	background: linear-gradient(to bottom,  #414045 55%,#2f2e33 100%); 
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#414045', endColorstr='#2f2e33',GradientType=0 );
-	box-shadow: inset 0px 1px 8px #222;
+	background: #ae4cff; 
+	background: linear-gradient(to bottom, #c085f1 55%, #9484a1 100%);
+	/* box-shadow: inset 0px 1px 8px #222; */
+}
+.order-section {
+	clear: both;
+    padding: 0px;
+	margin: 50px 100px;
 }
 .section {
 	clear: both;
 	padding: 0px;
 	margin: 0px;
 }
+
+/* clear: both;
+    padding: 0px;
+    margin: 60px; */
+	
 .group:before,
 .group:after {
     content:"";
@@ -751,7 +763,8 @@ p.note{
 	display: block;
 	float:left;
 	margin: 0% 0 1% 1.6%;
-	border-right: 2px groove #555;
+	border-right: 2px groove #f9f9f9;
+	height: 235px;
 }
 .col_1_of_4:first-child { margin-left: 0; } /* all browsers except IE6 and lower */
 .col_1_of_4:last-child {
@@ -762,7 +775,7 @@ p.note{
 	padding:1.5%; 
 }
 .span_1_of_4  h4 {
-	color:#ccc;
+	color:#fff;
 	margin-bottom: .5em;
 	font-size:1.2em;
 	line-height: 1.2;
@@ -774,20 +787,21 @@ p.note{
 	border-bottom:1px solid #474747;
 	padding-bottom:0.5em;
 }
-.span_1_of_4  li a{
+.span_1_of_4 li a{
 	font-size:0.8125em;
-	padding:0.4em 0;
-	color:#979797;
+	padding:0.1em 0;
+	color:#cfcfcf;
 	font-family :Arial, Helvetica, sans-serif;
-	display:block;	 	 
+	display:block;
+	text-decoration: none;	 	 
 }
 .span_1_of_4  li a:hover,.span_1_of_4  li span:hover{
 	color:#BBB7B7;
 }
 .span_1_of_4  li span{
 	font-size:1.2em;
-	padding:0.2em 0;
-	color:#979797;
+	padding:0.1em 0;
+	color:#e9e9e9;
 	display:block;
 	cursor:pointer;
 }
@@ -849,11 +863,11 @@ p.note{
 	display:none;
 	text-decoration:none;
 	position:fixed;
-	bottom:10px;
-	right:10px;
-	overflow:hidden;
-	width:48px;
-	height:48px;
+	bottom: 20px;
+    right: 30px;
+    overflow: hidden;
+    width: 32px;
+    height: 32px;
 	border:none;
 	text-indent:100%;
 	background:url(../images/arrow_up.png) no-repeat right top;
@@ -1119,7 +1133,8 @@ p.note{
 	line-height: 1.6em;
 	font-family : Arial, Helvetica, sans-serif;
 	border-bottom:1px dashed #CCC;
-	background: url(../images/drop_arrow.png) no-repeat 5px 11px; 	
+	background: url(../images/drop_arrow.png) no-repeat 5px 11px; 
+	text-decoration: none;	
 }
 .span_3_of_1 li a:hover{
 	background: url(../images/drop_arrow-hover.png) no-repeat 5px 11px;
@@ -1364,10 +1379,28 @@ p.note{
 	margin-left:4%;
 	margin-top:0px;
 }
-.section {
+.card-section{
 	clear: both;
 	padding: 0px;
 	margin: 0px;
+	padding-left: 0px;
+	padding-left: 100px;
+    padding-top: 20px;
+}
+.card-section{
+	clear: both;
+	padding: 0px;
+	margin: 0px;
+	padding-left: 100px;
+	padding-left: 100px;
+    padding-top: 20px;
+}
+.footer-section {
+	clear: both;
+	padding: 0px;
+	margin: 0px;
+	padding-left: 100px;
+    padding-top: 20px;
 }
 .group:before,
 .group:after {
@@ -1405,16 +1438,21 @@ p.note{
 	margin-top: 0px;
 }
 .cartpage {
-  border: 1px solid #ddd;
   overflow: hidden;
   padding: 10px;
 }
 .cartpage h2 {
-  border-bottom: 1px solid #ddd;
   font-size: 30px;
   margin-bottom: 20px;
   width: 141px;
 }
+
+.profile-table {
+	border: 1px solid #fff;
+	margin-bottom: 12px;
+	width: 100%;
+  }
+
 .tblone {
   border: 1px solid #fff;
   margin-bottom: 12px;
@@ -1446,7 +1484,7 @@ table.tblone input[type="submit"] {
   padding: 1px 5px;
 }
 table.tblone a {
-  color: #fe5800;
+  color: #fdf0f1;
   font-weight: bold;
   text-decoration: none;
 }
@@ -1900,6 +1938,12 @@ p.terms {
 		float:inherit;
 		width:100%;
 		text-align:center;
+		height:30px;
+	}
+	.logo h1{
+		font-weight: bold;
+		font-size: 40px;
+		color: #198754;
 	}
 	.header_top_right {
 		float:inherit;
@@ -2158,7 +2202,6 @@ p.terms {
 	.logo{
 		float:inherit;
 		width:100%;
-		text-align:center;
 	}
 	.header_top_right {
 		float:inherit;

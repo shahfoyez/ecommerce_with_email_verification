@@ -38,7 +38,7 @@
 			</div>
 		</form><!-- form -->
 		<div class="button">
-			<a href="#">B A R A K A H</a>
+			<a href="#">HB SHOP</a>
 		</div><!-- button -->
 	</section><!-- content -->
 </div><!-- container -->

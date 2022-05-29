@@ -57,7 +57,7 @@
 		 		<tr>
 		 			<td></td>
 		 			<td></td>
-		 			<td><a href="editprofile.php">Edit Profile</a></td>
+		 			<td><a class="btn btn-primary btn-sm" href="editprofile.php">Edit Profile</a></td>
 		 		</tr>
 		 	</table>
 		 <?php } }?>

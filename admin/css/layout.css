@@ -49,7 +49,7 @@ a:hover {
 ----------------------------------------------- */
 .container_12,
 .container_16 {
-	background:#2E5E79;
+	background:#509da1;
 }
 
 
@@ -109,7 +109,7 @@ h2#page-heading {
 .box.round{
 	  -moz-border-radius: 5px 5px 0px 0px; /* Firefox */
 	  -webkit-border-radius: 5px 5px 0px 0px; /* Safari, Chrome */
-	  border-radius: 5px 5px 0px 0px; /* CSS3 */
+	  border-radius: 5px 5px 5px 5px; /* CSS3 */
 }
 	  
 .box h2 {

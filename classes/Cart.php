@@ -35,10 +35,10 @@
 		    }else{
 				$query="INSERT into tbl_cart(sid,productID, productName, price, quantity, image) Values('$sid','$productid','$productName','$price','$quantity','$image')";
 				$cartInsert=$this->db->insert($query);
-				if($cartInsert !=false){
-					header("Location: cart.php");
+				if($cartInsert !=false){ 
+					echo "<script>window.location= 'cart.php';</script>";	 
 				}else{
-					header("Location: 404.php");
+		  			echo "<script>window.location= '404.php';</script>";
 				}
 			}
 		}
@@ -58,7 +58,7 @@
 			WHERE cartID='$cartID'";
 			$cartCheck=$this->db->update($query);
 			if($cartCheck){
-				header('location: cart.php');
+				echo "<script>window.location= 'cart.php';</script>";
 			}else{
 				$msg="<span class='error'>Cart Can not be Updated</span>";
 				return $msg;

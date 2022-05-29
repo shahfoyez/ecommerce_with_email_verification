@@ -66,7 +66,7 @@
 				Session::set("cuslogin", true);
 				Session::set("cusID", $value['customerID']);
 				Session::set("cusName", $value['name']);
-				header('Location: cart.php');
+				header('Location: index.php');
 			}else{
 				$msg= "<span class='error'>Email or Password Not Matched!</span>";
 				return $msg;

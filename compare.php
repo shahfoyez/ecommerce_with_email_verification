@@ -15,7 +15,7 @@
 	    	    <style>
 						table.tblone tr th,table.tblone tr td {border-right: 1px solid #e4d3e66b;}
 				</style>
-				<table class="tblone">
+				<table class="tblone Large shadow">
 					<tr>
 						<th >SL</th>
 						<th>Product Name</th>
@@ -36,7 +36,7 @@
 						<td ><?php echo $result['productName'];?></td>
 						<td >$<?php echo $result['price'];?></td>
 						<td ><img src="<?php echo "admin/".$result['image'];?>" alt=""/></td>
-						<td ><a href="details.php?pdodID=<?php echo $result['productID']?>">View</a></td>
+						<td ><a class="btn btn-primary btn-sm" href="details.php?pdodID=<?php echo $result['productID']?>">View</a></td>
 					</tr>
 					 
 				<?php } } ?> 

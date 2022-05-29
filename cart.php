@@ -76,8 +76,15 @@
 							echo $total;
 							?>
 							</td>
-						<td><a onclick="return confirm('Are You Sure To DElete!');" href="?delprod=<?php
-						 echo $result['cartID']; ?>">X</a></td>
+						<!-- <td>
+							
+							<a onclick="return confirm('Are You Sure To DElete!');" href="?delprod=<?php
+						 echo $result['cartID']; ?>">X</a>
+						 </td> -->
+						 <td >
+							<a onclick="return confirm('Are You Sure To DElete!');" class="btn btn-danger btn-sm" href="?delprod=<?php
+						 echo $result['cartID']; ?>">Remove</a>
+						</td>
 					</tr>
 					<?php 
 						$sum=$sum+$total;
@@ -117,9 +124,11 @@
 					<a href="payment.php"> <img src="images/check.png" alt="" /></a>
 				</div>
 			</div>
-			<?php } else{
-				header('location: index.php'); 
-				//echo "Cart Is Empty!";?>
+			<?php } else{?>
+
+				<script type="text/javascript">
+					window.location.href = "index.php"
+				</script>
 				<div class="shopright">
 					<a href="index.php"> <img src="images/shop.png" alt="" /></a>
 				</div>
